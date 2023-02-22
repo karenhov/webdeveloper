@@ -1,0 +1,5 @@
+<header>...</header> -site header
+<nav>...</nav> - navigation menu
+<aritcle>...</aritcle> - blog post design
+<section>...</section> - section on the website 
+<aside>...</aside> - side column with information
