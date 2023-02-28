@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: khaki;
 }
@@ -15,10 +18,25 @@ h2 {
     color: rgba(254.145.0 0.2)
 }
 .box {
+    /*display:inline-block;*/
     width: 300px;
     height: 300px;
     background-color:green;
     padding: 20px;
     border: 6px solid black;
     margin: 20px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+a {
+   
 }
