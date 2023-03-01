@@ -26,41 +26,33 @@ h3 {
 .box {
     /*display:inline-block;*/
     display: inline-block;
+    vertical-align:middle;
     width: 300px;
     height: 300px;
-    background-color:red;
-    padding: 20px;
-    border: 6px solid white;
+    background-color:green;
+    padding: 20px 10px;
+    border: 5px solid black;
     margin: 20px;
-    z-index: 4;
+    /*border: 6px solid white;*/
+    /*margin: 20px;*/
+    /*z-index: 4;*/
 }
 img {
     display: block;
     margin: 0 auto;
     width: 500px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    /*margin-top: 2%;
+    margin-bottom: 2%;*/
 }
-
 nav {
     /*static,relative,absolute,fixed,inherit*/
     position: inherit;
     right: 300px;
     /*left,right,bottom,top*/
 }
-.blue {
-    position: absolute;
-    left: 180px;
-    bottom: 80px;
-    background-color: blue;
-    z-index: 6;
-}
 .red {
-    position: absolute;
-    left: 80px;
-    bottom: 40px;
-    background-color: #FCC41E;
-    z-index: 5;
+    background-color: red;
+    /*z-index: 5;*/
 }
 .example {
     position: relative;
