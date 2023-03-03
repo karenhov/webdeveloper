@@ -9,7 +9,7 @@
 }
 .eazy {
     height: 800px;
-    background: url('../img/background1.jpg'); center center/cover no-repeat;
+    background: url('../img/background1.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
 .logo .logo_img {
@@ -26,4 +26,14 @@
     color: #ffffff;
     text-align: center;
     margin-top: 14px;
+}
+.title {
+   
+   font-family: Roboto;
+   font-size: 41px;
+   line-height: 24px;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: #f9bf3b;
+   text-align: center;
 }
