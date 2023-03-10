@@ -70,7 +70,7 @@ h2.title {
     font-family: "Robot - Bold";
     color: #f9bf3b;
 }
-.eazy .eazy_btn {
+.eazy .eazy_btn, .gift .gift_btn {
     display: block;
     margin: 69px auto;
     width: 321px;
@@ -109,7 +109,7 @@ h2.title {
     background-color: #6c646447;
     padding: 85px 0 75px 0;
 }
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -117,7 +117,10 @@ h2.title {
     color: #252525;
     text-align: center;
 }
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #fff;
+}
+.waiting .waiting_divider, .finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
@@ -179,7 +182,47 @@ h2.title {
 }
 .optimization .optimization_img {
     position: absolute;
-    top: 48px;
+    top: 1px;
     left: -240px;
     z-index: -1;
+}
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/background2.jpg') center center/cover no-repeat;
+}
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 26px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #efefef;
+    text-align: center;
+}
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+}
+.gift .gift_img_1 img {
+    margin-top: 86px;
+    margin: 0 auto;
 }
