@@ -104,7 +104,6 @@ h2.title {
     margin-top: 13px;
 }
 .waiting {
-    width: 1920px;
     height: 604px;
     background-color: #6c646447;
     padding: 85px 0 75px 0;
@@ -222,7 +221,20 @@ h2.title {
     min-height: 628px;
     background-color: #efefef;
 }
-.gift .gift_img_1 img {
-    margin-top: 86px;
+.gift .gift_img_1 img, .gift_img_2 img {
+    display: flex;
     margin: 0 auto;
+    padding: 86px 0 0 0;
+}
+.gift .gift_img_2 img {
+    padding: 0 18px 0 0;
+}
+.gift .gift_text  {
+    font-family: Roboto;
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 42px;
+    text-align: center;
 }
