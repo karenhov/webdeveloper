@@ -281,12 +281,35 @@ h2.title {
     height: 166px;
     background-color: #1a1a1a;
 }
-.finishid a  {
+.finishid .finishid_conf {
+    text-align: center;
+    padding-top: 61px;
+}
+.finishid .finishid_conf a {
     font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
     font-weight: 300;
     text-decoration: underline;
     color: #888888;
-    margin-top: 0 auto;
 }
+.finishid .finishid_conf span {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #888888;
+    text-decoration: none;
+}
+.finishid .finishid_text {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #888888;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
