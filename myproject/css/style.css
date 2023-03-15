@@ -277,38 +277,34 @@ h2.title {
     text-align: center;
     margin-top: 25px;
 }
-.finishid {
-    height: 166px;
+footer {
+    min-height: 166px;
     background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
 }
-.finishid .finishid_conf {
+
+.info {
+    margin: 0 auto;
+    width: 377px;
     text-align: center;
-    padding-top: 61px;
-}
-.finishid .finishid_conf a {
+    color: #888888;
     font-family: Roboto;
     font-size: 15px;
-    line-height: 21px;
     font-weight: 300;
+    line-height: 21px;
+}
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.underlined {
     text-decoration: underline;
-    color: #888888;
-}
-.finishid .finishid_conf span {
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 21px;
-    font-weight: 300;
-    color: #888888;
-    text-decoration: none;
-}
-.finishid .finishid_text {
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 21px;
-    font-weight: 300;
-    color: #888888;
-    text-decoration: none;
-    text-align: center;
 }
 
 
