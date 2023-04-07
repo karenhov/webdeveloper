@@ -19,6 +19,6 @@ a {
     text-decoration: underline;
     margin: 0 auto;
 }
-.password,.text,.alarm,.time,.worktime {
+.password,.text,.alarm,.time,.worktime,.area{
       margin-top: 5px;
 }
