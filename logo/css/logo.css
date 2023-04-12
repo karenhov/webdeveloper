@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    display: block;
+    margin: 0 auto;
+    border: 25px solid #00A3D8;
+    width: 793.7007874px;
+    height: 1122.519685px;
+    background-color: #E8E7E5;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    color:#00A3D8;
+    text-align: center;
+    font-size: 60px;
+    font-style: initial;
+}
+.main_txt,.address_txt {
+    display: inline-block;
+    margin: 0 auto;
+    color:  #00A3D8;
+    text-align: center;
+    font-size: 25px;
+    line-height: 37px;
+}
+.address_txt {
+    padding: 20px;
+}
