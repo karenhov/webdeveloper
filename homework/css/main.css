@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    margin: 16px 460px 58px 463px;
+}
+
