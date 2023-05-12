@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(161, 209, 179);
+}
+.text_css {
+    font-size: 50px;  
+    text-align: center; 
+    font-weight: 600;
+    text-decoration: inline;
+    text-transform: lowercase;
+} 
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(170, 242, 14, 0.717);
+    padding: 20px;
+    /*border-width: 3px;
+    border-style: solid;
+    background-color: #1999d0;*/
+    border: 3px solid rgba(17, 227, 178, 0.523);
+    margin: 20px 50px 100px 100px;
+    margin: 0 auto;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+.my-flex-container {
+    display: flex;
+    background-color: green;
+}
+.my-flex-block {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+
+
+
