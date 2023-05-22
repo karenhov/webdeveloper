@@ -2,6 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 header {
+    position: relative;
+}
+nav {
     /* Style for "Rectangle" */
     height: 50px; 
     background-color: #212121;
@@ -32,6 +35,8 @@ header {
 }
 .subheader {
     /* Style for "Rectangle" */
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0, 0, 0, .6);
 }
@@ -80,6 +85,110 @@ header {
     text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
     color: #ffffff;
 }
+.promo {
+    min-height: 799px;
+    background: url('../img/main_jpg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+    color: #ffffff;
+}
+.promo .promo_descr {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 23px;
+    color: #ffffff;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+.advantages {
+    padding: 71px 0 63px 0;
+}
+.advant {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    padding: 5px 12px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.advant_work {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 0;
+    color: #222222;
+}
+.advantages .advant_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.advantages .advant_main .advant_img_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+.advantages .advant_main .advant_text_block {
+    width: 343px;
+}
+.advantages .advant_main .advant_text_block .advant_txt_blue {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+.advantages .advant_main .advant_text_block .advant_txt_black {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+}
+
+
+
+
 
 
 
