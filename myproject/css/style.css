@@ -1,15 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 html {
     font-family: 'Roboto', sans-serif;
-}
-.conteiner {
-    position: relative;
-    width: 1140px;
-    margin: 0 auto;
 }
 .eazy {
     /*width: 1902px;*/
