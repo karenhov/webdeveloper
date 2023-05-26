@@ -6,12 +6,36 @@ button
     width: 250px
     height: 50px
     background-color: #e66b
-    border: none
     cursor: pointer
-    margin-bottom: 20px
+    border: none
+    transition: 0.5s all
+    outline: none
+    &:hover
+        background-color: pink
+        color: white
+    &:active
+        background-color: orange
+    &:focus
+        background-color: grey
 
 .circle
     width: 50px
     height: 50px
     background-color: green
     border-radius: 100%
+    margin-top: 10px
+    transition: 0.5s all
+    &:nth-child(2n)
+        background-color: red
+    &:before
+        content: ''
+        display: block
+        height: 2px
+        width: 0%
+        background-color: black
+        transition: 0.25s all
+    &:hover
+        &::before
+            width: 100%
+         
+            
