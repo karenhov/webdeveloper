@@ -1,5 +1,12 @@
 $main_color: #ffffff
 $second_color: #000000
+$btn_color: #4DACC4
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $btn_color
+
+
 *
 	font-family: 'Roboto', sans-serif
 	.row
@@ -71,6 +78,7 @@ nav
 		text-transform: uppercase
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2)
 		color: $main_color
+		+btn_hover
 .promo
 	min-height: 799px
 	background: url('../img/main_jpg.jpg') center (center / cover) no-repeat
@@ -114,6 +122,7 @@ nav
 		text-transform: uppercase
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2)
 		color: $main_color
+		+btn_hover
 .advantages
 	padding: 71px 0 63px 0
 .advant
@@ -210,6 +219,16 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			padding: 6px
+			&:before
+				content: '+'
+				display: block
+				color: #1EACC7
+				transition: .3s all
+			&:hover
+				&:before
+					color: #0a7085
+					
+					
 .uber_x
 	min-height: 896px
 	&_top
@@ -244,3 +263,35 @@ nav
 			font-size: 17px
 			font-weight: 300
 			text-align: center
+.condition
+	padding: 68px 0 84px 0
+	&_block
+		margin:33px 0
+		&_nbm
+			margin-bottom: 0px
+	&_title
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_menu
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&:before
+				content: ''
+				display: inline-block
+				margin: 0 4px -4px 0
+				width: 21px
+				height: 20px
+				background: url('../icons/sign_blue_icons.png') center center/cover no-repeat
+	&_txt
+		color: #1ca8c3
+		font-weight: 300
+
+
+				
