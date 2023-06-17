@@ -1,7 +1,5 @@
 @media (max-width: 1200px)
     .menu
-        &_items
-            padding-right: 20px
         &_link
             font-size: 10px
     .promo
@@ -10,9 +8,14 @@
     .mobile
         &_items
             width: 300px
-    .uber
-        &_x_bottom img
-            margin-left: -69px
+    .uber_x
+        .advant_car
+            margin: 0 auto
+        .col-6
+           // flex: none
+            // max-width: none
+        .advant_car
+            width: 100%
     .store
         &_menu img
             width: 70px
@@ -23,11 +26,11 @@
             height: 38px
 @media (max-width: 991px)
     .menu
-        margin-left: 66px
+        display: flex
         &_items
             padding-right: 2px
         &_link
-            padding: 8px
+            font-size: 13px
     .subheader
         &_link img
             width: 100%
@@ -52,12 +55,7 @@
             &_subtitle
                 font-size: 17px
     .uber_x 
-        min-height: 0px
-        &_bottom
-            min-height: 0px
-        img
-            width: 100%
-            margin-left: 0px
+        &_txt
     .store
         &_menu img
             width: 56px
@@ -146,12 +144,95 @@
             text-align: center
     .uber_x
         img
-            margin-left: -45px
-        &_bottom
-            &_txt
-                margin-left: -57px
+            display: block
+            margin: 0 auto
+
     .condition_title
         text-align: center
+@media (max-width: 575px)
+    nav
+        width: 320px
+        height: 30px
+    .menu 
+        &_active
+            left: -68px
+            height: 100%
+        &_link
+            font-size: 17px
+    .subheader
+        &_official
+            display: none
+        &_link
+            margin-top: 24px
+        &_phone
+            font-size: 13px
+            margin-top: 18px
+        &_btn
+            width: 119px
+            height: 32px
+            font-size: 9px
+    .promo
+        max-height: 400px
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            line-height: 1.2
+            font-weight: 900
+            text-transform: uppercase
+            color: #ffffff
+            padding: 53px 24px 68px 24px
+        &_subheader
+            font-size: 20px
+            font-weight: 700px
+        &_btn
+            width: 200px
+            height: 50px
+            font-size: 13px
+            margin-top: 69px
+    .advant
+        &_work
+            font-size: 15px
+            font-weight: 700
+            text-transform: uppercase
+            color: #222222
+            margin-top: 15px
+        &_img_round
+            width: 100px
+            height: 100px
+            margin-top: 25px 
+            img
+                width: 80px
+                height: 66px
+        &_txt_blue
+            font-size: 16px
+            line-height: 21px
+            font-weight: 400
+            color: #1eacc7
+        &_txt_black
+            font-size: 15px
+            font-weight: 300
+            color: #202020
+            padding: 0 15px 0 15px
+    .mobile
+        padding: 22px 0 33px 0
+        .advant
+            &_txt_mini
+                font-size: 14px
+                line-height: 21px
+                font-weight: 400
+        &_items
+            margin-top: 27px
+            width: 254px
+            height: 254px
+        &_items_subtitle
+            font-size: 18px
+            line-height: 31px
+            font-weight: 400
+            text-transform: uppercase
+    .uber_x
+
+
 
                
 

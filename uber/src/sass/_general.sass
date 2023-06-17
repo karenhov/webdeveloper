@@ -19,7 +19,7 @@ nav
 		font-weight: 300
 	&_items
 		border-right: 2px dotted black
-		padding-right: 28px
+		//padding-right: 28px
 .subheader
 	position: absolute
 	width: 100%
@@ -217,38 +217,33 @@ nav
 					
 .uber_x
 	min-height: 896px
-	&_top
-		min-height: 499px
-		padding-top: 57px
-		background-color: #070716
-		.advant
-			display: block
-			background-color: $main_color
-			color: #070716
-		.advant_work
+	padding-top: 57px 
+	background: url('../img/bottom_bachground.jpg') center center/cover no-repeat
+	background-position-y: 397px
+	background-color: black
+	.advant
+		display: block
+		background-color: $main_color
+		color: #070716
+		&_work
 			color: $main_color
-
-		.advant_txt_mini
+		&_txt_mini
 			color: $main_color
-			margin-bottom: 56px
-
-	&_bottom
-		min-height: 397px
-		background: url('../img/bottom_bachground.jpg') center center/cover no-repeat
+	.advant_car
 		img
 			display: block
 			margin: 0 auto
-			margin-top: -213px
-		.uber_x_txt
-			display: block
-			margin: 0 auto
-			padding-top: 4px
-			width: 297px
-			height: 42px
-			color: #222222
-			font-size: 17px
-			font-weight: 300
-			text-align: center
+			width: 610px
+			height: 362px
+			padding-top: 56px
+	.xx-car
+		display: none
+	&_txt
+		padding-top: 80px
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		text-align: center
 .condition
 	padding: 68px 0 84px 0
 	&_block
@@ -387,7 +382,7 @@ nav
 	height: 8px
 	background-color: #070716
 .xs-visited
-	display: none
+	display: none 
 	
 
 					
