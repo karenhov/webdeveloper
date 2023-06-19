@@ -11,9 +11,6 @@
     .uber_x
         .advant_car
             margin: 0 auto
-        .col-6
-           // flex: none
-            // max-width: none
         .advant_car
             width: 100%
     .store
@@ -24,16 +21,17 @@
         &-left
             width: 38px
             height: 38px
-@media (max-width: 991px)
+@media (max-width: 992px)
     .menu
         display: flex
         &_items
             padding-right: 2px
         &_link
-            font-size: 13px
+            font-size: 10px
     .subheader
-        &_link img
-            width: 100%
+        &_link
+            img
+                width: 100%
         &_official
             font-size: 11px
         &_phone
@@ -56,11 +54,12 @@
                 font-size: 17px
     .uber_x 
         &_txt
+            font-size: 13px
     .store
         &_menu img
             width: 56px
             height: 25px
-@media (max-width: 767px)
+@media (max-width: 768px)
     .menu
         position: fixed
         flex-direction: column
@@ -76,7 +75,7 @@
         background-color: rgba(0,0,0, .8)
         transition: 0.6s all
         &_active
-            left: -12%
+            left: 0
         &_items
             padding-right: 0
             border: none
@@ -146,9 +145,24 @@
         img
             display: block
             margin: 0 auto
+        .advant_car
+            img
+                width: 550px
+                height: 370px
+        &_txt
+            font-size: 15px
 
     .condition_title
         text-align: center
+    .advant_work
+        font-size: 27px
+    .menu_link
+        .link_left
+            margin: 0 7px
+    .store_menu
+        a
+            img
+                margin: -24px 5px 22px
 @media (max-width: 575px)
     nav
         width: 320px
@@ -231,6 +245,9 @@
             font-weight: 400
             text-transform: uppercase
     .uber_x
+        .advant_car
+            img
+                wi
 
 
 
