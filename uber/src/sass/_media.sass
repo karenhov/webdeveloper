@@ -1,5 +1,6 @@
 @media (max-width: 1200px)
     .menu
+        padding-right: 50px
         &_link
             font-size: 10px
     .promo
@@ -21,11 +22,11 @@
         &-left
             width: 38px
             height: 38px
-//@media (max-width: 992px)
+@media (max-width: 992px)
     .menu
         display: flex
         &_items
-            padding-right: 2px
+            padding-right: 20px
         &_link
             font-size: 10px
     .subheader
@@ -55,11 +56,20 @@
     .uber_x 
         &_txt
             font-size: 13px
-    .store
-        &_menu img
+    .menu_link
+        .col-6
+            flex: 0 0 49%
+        &_left
+            .link_left
+                width: 30px
+                height: 30px
+                margin: 0 13px 0 10px
+    .store_menu
+        margin: -93px 0 0 0 
+        img
             width: 56px
             height: 25px
-//@media (max-width: 768px)
+@media (max-width: 768px)
     .menu
         position: fixed
         flex-direction: column
@@ -165,94 +175,56 @@
         a
             img
                 margin: -24px 5px 0px
-//@media (max-width: 575px)
+@media (max-width: 575px)
+
+    .menu_link
+        &_left
+            .link_left
+                width: 26px
+                height: 26px
+                font-size: 13px
+    .requir_first
+        a
+            margin-top: -150px
+            font-size: 12px
+    .requir_second
+        a
+            font-size: 9px
+            margin-right: 10px
+    .store_menu
+        a
+            img
+                margin: -19px 4px 8px 4px 
+                width: 45px
+                height: 23px
+    .mobile_items
+        width: 250px
+        height: 250px
+        &_subtitle
+            font-size: 15px
+@media(max-width: 320px)
     nav
-        width: 320px
-        height: 30px
-    .menu 
-        &_active
-            left: -68px
-            height: 100%
-        &_link
-            font-size: 17px
+        height: 36px
+    .homburger
+        width: 22px
+    .menu_active
+        //left: 0
+        height: 100vh
+    .menu_link
+        font-size: 17px
     .subheader
         &_official
             display: none
-        &_link
-            margin-top: 24px
         &_phone
-            font-size: 13px
-            margin-top: 18px
+            font-size: 12px
         &_btn
-            width: 119px
-            height: 32px
-            font-size: 9px
-    .promo
-        max-height: 400px
-        &_descr
-            display: none
-        &_header
-            font-size: 30px
-            line-height: 1.2
-            font-weight: 900
-            text-transform: uppercase
-            color: #ffffff
-            padding: 53px 24px 68px 24px
-        &_subheader
-            font-size: 20px
-            font-weight: 700px
-        &_btn
-            width: 200px
-            height: 50px
-            font-size: 13px
-            margin-top: 69px
-    .advant
-        &_work
-            font-size: 15px
-            font-weight: 700
-            text-transform: uppercase
-            color: #222222
-            margin-top: 15px
-        &_img_round
             width: 100px
-            height: 100px
-            margin-top: 25px 
-            img
-                width: 80px
-                height: 66px
-        &_txt_blue
-            font-size: 16px
-            line-height: 21px
-            font-weight: 400
-            color: #1eacc7
-        &_txt_black
-            font-size: 15px
-            font-weight: 300
-            color: #202020
-            padding: 0 15px 0 15px
-    .mobile
-        padding: 22px 0 33px 0
-        .advant
-            &_txt_mini
-                font-size: 14px
-                line-height: 21px
-                font-weight: 400
-        &_items
-            margin-top: 27px
-            width: 254px
-            height: 254px
-        &_items_subtitle
-            font-size: 18px
-            line-height: 31px
-            font-weight: 400
-            text-transform: uppercase
-    .uber_x
-        .advant_car
-            width: 500px
-            margin: 0 0 0 0 
-    .menu_link
-        &_left
-            margin: 0 0 0 0
+            height: 30px
+            font-size: 10px
+        &_link
+            margin-left: -14px
+    .promo
+       // background-position-x:  
 
 
                
