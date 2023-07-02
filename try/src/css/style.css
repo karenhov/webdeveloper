@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(50.51deg 24.33% 36.43% / 91.6%);
+    max-height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(52, 92%, 44%);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 6px;
+    text-transform: uppercase;
+    font-size: 113px;
+    border-radius: 100%;
+}
+ a {
+    display: block;
+    text-decoration:none;
+    color: black;
+    cursor: none;
+ }
