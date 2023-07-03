@@ -1,0 +1,44 @@
+
+body {
+
+   /*  background-color: #c3bdbd; */
+}
+.icon-rocket:before {
+    content: "\e9a5";
+    margin: 0 auto;
+}
+.main {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 14%;
+    background-color: #298eb3;
+}
+.main .hr {
+    display: block;
+    width: 29%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+}
+.my_text {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'auto';
+    line-height: 56px;
+    text-align: center;
+    color: #c3bdbd;
+}
+h1 {
+    padding-top: 11%;
+    color: rgb(195, 189, 189);
+}
+.news_paper {
+   /*  display: block; */
+    position: relative;
+    left: 10%;
+}
+
