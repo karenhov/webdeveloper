@@ -23,10 +23,39 @@
 }
 .box:hover {
     color: white;
-    display: none;
+    font-size: 75px;
 
 }
 .box::before {
-    content: '';
-    display:flex;
+    content: ' ';
+    font-size: 20%;
+}
+a {
+    font-size: 75px;
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    color: black;
+}
+a:visited
+{
+    color: grey;
+}
+a:active
+{
+    color: red;
+}
+a:focus {
+    font-weight: bold;
+}
+.txt::first-letter {
+    font-size: 50px;
+}
+.txt::first-line {
+    text-decoration: underline;
+}
+.txt::selection {
+    background-color: red;
+    color: yellow;
 }
