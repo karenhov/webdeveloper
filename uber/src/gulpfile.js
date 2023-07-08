@@ -11,8 +11,6 @@ gulp.task('server', function() {
         server: {
             baseDir: "src"
         },
-        port: 8080,
-        notify: false
     });
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
